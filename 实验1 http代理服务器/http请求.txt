@@ -1,0 +1,71 @@
+CONNECT tracking.firefox.com.cn:443 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0
+Proxy-Connection: keep-alive
+Connection: keep-alive
+Host: tracking.firefox.com.cn:443
+
+
+GET http://detectportal.firefox.com/canonical.html HTTP/1.1
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+
+CONNECT checkappexec.microsoft.com:443 HTTP/1.0
+Host: checkappexec.microsoft.com:443
+Content-Length: 0
+Proxy-Connection: Keep-Alive
+Pragma: no-cache
+
+
+CONNECT functional.events.data.microsoft.com:443 HTTP/1.1
+Host: functional.events.data.microsoft.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46
+
+
+CONNECT www.baidu.com:443 HTTP/1.1
+Host: www.baidu.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46
+
+b'HTTP/1.1 200 OK\r\n
+Accept-Ranges: bytes\r\n
+Cache-Control: no-cache\r\n
+Connection: keep-alive\r\n
+Content-Length: 9508\r\n
+Content-Type: text/html\r\n
+Date: Wed, 18 Oct 2023 08:10:09 GMT\r\n
+P3p: CP=" OTI DSP COR IVA OUR IND COM "\r\n
+P3p: CP=" OTI DSP COR IVA OUR IND COM "\r\n
+Pragma: no-cache\r\nServer: BWS/1.1\r\n
+Set-Cookie: BAIDUID=74D122B4C08B237BD971F180B948BE94:FG=1; expires=Thu, 31-Dec-37 23:55:55 GMT; max-age=2147483647; path=/; domain=.baidu.com\r\n
+Set-Cookie: BIDUPSID=74D122B4C08B237BD971F180B948BE94; expires=Thu, 31-Dec-37 23:55:55 GMT; max-age=2147483647; path=/; domain=.baidu.com\r\n
+Set-Cookie: PSTM=1697616609; expires=Thu, 31-Dec-37 23:55:55 GMT; max-age=2147483647; path=/; domain=.baidu.com\r\nSet-Cookie: BAIDUID=74D122B4C08B237BE0BFB30B561910BA:FG=1; max-age=31536000; expires=Thu, 17-Oct-24 08:10:09 GMT; domain=.baidu.com; path=/; version=1; comment=bd\r\n
+Traceid: 1697616609243806337011548338003136819244\r\n
+Vary: Accept-Encoding\r\n
+X-Ua-Compatible: IE=Edge,chrome=1\r\n\r\n
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" conten'
+
+
+GET http://www.baidu.com/ HTTP/1.1
+Host: www.baidu.com
+Proxy-Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: H_WISE_SIDS=219946_
+
+
+b'CONNECT www.bilibili.com:443 HTTP/1.1\r\n
+Host: www.bilibili.com:443\r\n
+Proxy-Connection: keep-alive\r\n
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46\r\n\r\n'
